@@ -7,6 +7,7 @@
 #include "maze.h"
 #include "hash.h"
 #include "quicksort.h"
+#include "reverse_string.h"
 int main( int argc, const char* argv[] ) //for the command line input
 {
     int input;
@@ -20,6 +21,9 @@ int main( int argc, const char* argv[] ) //for the command line input
     printf("5. just run a quick quack test \n");
     printf("6. Go to tree menu \n");
     printf("7. Maze runner \n");
+    printf("8. Hash map \n");
+    printf("9. q1 sort \n");
+    printf("10. reverse string \n");
     printf("E -> Exit\n");
     printf("What would you like to do? ");
     scanf("%d", &input);
@@ -52,6 +56,8 @@ int main( int argc, const char* argv[] ) //for the command line input
         case 9:
             q1sort();
             break;
+        case 10:
+            reverse_string();
         default:
             break;  
     }
