@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "building code!"
 echo
 echo
 rm -rf ./bin
